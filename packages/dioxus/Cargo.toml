@@ -1,0 +1,13 @@
+[package]
+name = "heroicons-dioxus"
+description = "Dioxus port of Heroicons."
+homepage = "https://heroicons.rustforweb.org/frameworks/dioxus.html"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+dioxus.workspace = true

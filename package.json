@@ -1,0 +1,15 @@
+{
+    "name": "@rustforweb/heroicons",
+    "description": "Rust port of Heroicons.",
+    "author": "Rust For Web <info@rustforweb.org>",
+    "repository": "github:RustForWeb/heroicons",
+    "license": "MIT",
+    "private": true,
+    "scripts": {},
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}

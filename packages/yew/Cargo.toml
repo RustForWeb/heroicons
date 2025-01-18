@@ -1,0 +1,13 @@
+[package]
+name = "heroicons-yew"
+description = "Yew port of Heroicons."
+homepage = "https://heroicons.rustforweb.org/frameworks/yew.html"
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+yew.workspace = true

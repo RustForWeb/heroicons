@@ -1,0 +1,21 @@
+[package]
+name = "heroicons-yew-book"
+description = "Book examples for Heroicons Yew."
+publish = false
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+console_error_panic_hook.workspace = true
+console_log.workspace = true
+log.workspace = true
+heroicons-yew = { path = "../../packages/yew", optional = true }
+yew = { workspace = true, features = ["csr"] }
+
+[features]
+default = []
+icons = ["dep:heroicons-yew"]

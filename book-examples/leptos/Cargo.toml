@@ -1,0 +1,21 @@
+[package]
+name = "heroicons-leptos-book"
+description = "Book examples for Heroicons Leptos."
+publish = false
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+console_error_panic_hook.workspace = true
+console_log.workspace = true
+leptos = { workspace = true, features = ["csr"] }
+log.workspace = true
+heroicons-leptos = { path = "../../packages/leptos", optional = true }
+
+[features]
+default = []
+icons = ["dep:heroicons-leptos"]

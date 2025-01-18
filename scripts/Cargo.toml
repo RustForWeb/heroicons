@@ -1,0 +1,23 @@
+[package]
+name = "scripts"
+description = "Scripts for Rust Heroicons."
+publish = false
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+convert_case = "0.6.0"
+env_logger = "0.11.5"
+git2 = "0.19.0"
+log.workspace = true
+prettyplease = "0.2.25"
+proc-macro2 = "1.0.92"
+quote = "1.0.37"
+roxmltree = "0.20.0"
+tempfile = "3.14.0"
+syn = "2.0.89"
+usvg = "0.44.0"

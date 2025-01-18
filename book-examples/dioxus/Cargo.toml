@@ -1,0 +1,20 @@
+[package]
+name = "heroicons-dioxus-book"
+description = "Book examples for Heroicons Dioxus."
+publish = false
+
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+version.workspace = true
+
+[dependencies]
+console_error_panic_hook.workspace = true
+console_log.workspace = true
+dioxus = { workspace = true, features = ["web"] }
+log.workspace = true
+heroicons-dioxus = { path = "../../packages/dioxus", optional = true }
+
+[features]
+icons = ["dep:heroicons-dioxus"]
