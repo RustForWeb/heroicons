@@ -1,4 +1,3 @@
-use heroicons_yew::{Component, *};
 use yew::prelude::*;
 #[function_component]
 pub fn Icons() -> Html {

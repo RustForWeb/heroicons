@@ -1,5 +1,4 @@
 use dioxus::prelude::*;
-use heroicons_dioxus::*;
 #[component]
 pub fn Icons() -> Element {
     rsx! {
