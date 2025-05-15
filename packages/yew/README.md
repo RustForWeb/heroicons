@@ -14,8 +14,8 @@ Heroicons is a set of free MIT-licensed high-quality SVG icons for UI developmen
 
 See [the Rust Heroicons book](https://heroicons.rustforweb.org/) for documentation.
 
-## Rust For Web
+## Rust for Web
 
-The Rust Heroicons project is part of [Rust For Web](https://github.com/RustForWeb).
+The Rust Heroicons project is part of [Rust for Web](https://github.com/RustForWeb).
 
-[Rust For Web](https://github.com/RustForWeb) creates and ports web UI libraries for Rust. All projects are free and open source.
+[Rust for Web](https://github.com/RustForWeb) creates and ports web UI libraries for Rust. All projects are free and open source.
