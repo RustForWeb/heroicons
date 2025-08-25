@@ -9,13 +9,13 @@ license.workspace = true
 repository.workspace = true
 version.workspace = true
 
+[features]
+default = []
+icons = []
+
 [dependencies]
 console_error_panic_hook.workspace = true
 console_log.workspace = true
+# heroicons-leptos = { path = "../../packages/leptos", optional = true }
 leptos = { workspace = true, features = ["csr"] }
 log.workspace = true
-heroicons-leptos = { path = "../../packages/leptos", optional = true }
-
-[features]
-default = []
-icons = ["dep:heroicons-leptos"]
