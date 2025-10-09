@@ -17,6 +17,6 @@ log.workspace = true
 prettyplease = "0.2.25"
 proc-macro2 = "1.0.92"
 quote = "1.0.37"
-roxmltree = "0.20.0"
+roxmltree = "0.21.0"
 syn = "2.0.89"
 tempfile = "3.14.0"
